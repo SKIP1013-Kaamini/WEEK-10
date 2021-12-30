@@ -1,0 +1,16 @@
+Please enter five name of customer
+kaamini
+balqis
+nurin
+huixin
+devan
+Enter five integers one number per line
+12
+13
+14
+15
+16
+devan huixin nurin balqis kaamini
+The sum of numbers = 70
+The numbers in reverse order are: 
+16 15 14 13 12
