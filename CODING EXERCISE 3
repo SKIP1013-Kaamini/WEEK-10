@@ -1,0 +1,48 @@
+package CLASS;
+import java.util.Scanner;
+class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Two-dimensional array
+		
+		//arrayName[indexExp1][indexExp2];
+		//indeExp1 = no of rows
+		//indexExp2 = no of columns
+		
+		//int row;
+		//int column;
+		//int matrix[][]= new int[7][6];
+		//for (row = 0; row < matrix.length; row++)
+			//for (column = 0; column = matrix[row].length; column++)
+				//matrix[row][column]=10;
+
+		String[] name = new String[5];//array name
+		int [][] sales = new int[3][5];//double array
+		
+		Scanner scan = new Scanner(System.in);
+		int sum=0;
+		System.out.println("Enter sales one per line");//double data so dua looping
+		for(int i=0 ; i<sales.length; i++)
+			for(int y=0; y<sales.length; y++)
+			{
+				sales[i][y]=scan.nextInt();
+				sum = sum + sales[i][y];
+			}
+		int avg = sum/sales.length;
+	    for(int i=0 ; i<sales.length; i++)
+			for(int y=0; y<sales.length; y++) {
+				System.out.println("i = " + i + " y = " + y);
+				System.out.println("Value for sales is "+ sales[i][y]);}
+	    System.out.println("The sum of sales is " + sum);//sum of sales
+	    System.out.println("The average of sales is " + avg);//average of sales
+		
+		
+		System.out.println("Enter five names one per line");
+		for(int i=0; i<name.length; i++)
+			name[i]= scan.next();
+		
+
+	}
+
+}
