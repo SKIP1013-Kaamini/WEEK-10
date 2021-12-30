@@ -1,9 +1,24 @@
-int[] item = new int[5];//Declare array
+package CLASS;
+import java.util.*;
+class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		int sum;
+		sum=0;
+		
+		
+		
+		
+		int[] item = new int[5];//Declare array
 		Scanner input = new Scanner(System.in);
 	    for (int i=0; i<item.length; i++) {//Scanner array
 	    	System.out.println("Enter five integers one number per line");
 	    	item[i]= input.nextInt();
 	    	sum = sum + item[i];//total value
+	    	System.out.println("Items are: " + "index" +i + " = " +item[i]);
 	    	System.out.println("Sum is :" + sum);
 	    	System.out.println("Average sum is :" + sum/item.length);//average sum
 	    }
@@ -14,16 +29,9 @@ int[] item = new int[5];//Declare array
 	    	sum = sum + num[i];
 	    	System.out.println("Sum is :" + sum);
 	    	System.out.println("Average sum is :" + sum/item.length);//average sum
+	    	
+	    	
 	    }
-	    
-	    String nameList[] = new String [5];
-	    
-	   
-	    
-	   
-	    
-		for(int i=0; i<item.length; i++)
-			System.out.println("Items are: " + "index" +i + " = " +item[i]);
 		
 	
 		
