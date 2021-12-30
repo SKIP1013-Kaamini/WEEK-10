@@ -1,0 +1,25 @@
+Enter five integers one number per line
+12
+Items are: index0 = 12
+Sum is :12
+Average sum is :2
+Enter five integers one number per line
+13
+Items are: index1 = 13
+Sum is :25
+Average sum is :5
+Enter five integers one number per line
+14
+Items are: index2 = 14
+Sum is :39
+Average sum is :7
+Enter five integers one number per line
+15
+Items are: index3 = 15
+Sum is :54
+Average sum is :10
+Enter five integers one number per line
+17
+Items are: index4 = 17
+Sum is :71
+Average sum is :14
